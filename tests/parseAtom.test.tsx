@@ -13,5 +13,6 @@ describe("parseAtom", () => {
     c
   """`;
     expect(parseAtom(description, tabTrigger, snippet)).toBe(result);
+    expect(parseAtom(description, tabtrigger, snippet)).tobe(result);
   });
 });
